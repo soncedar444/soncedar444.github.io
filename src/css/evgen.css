@@ -139,6 +139,7 @@ header {
     max-width: 1880px;
     height: 116px;
     background: url("../img/header.jpg") center no-repeat;
+    background-size: contain;
     }
 
 /* Header End*/
@@ -540,6 +541,7 @@ footer {
     max-width: 1902px;
     height: 461px;
     background: url("../img/footer.jpg") center no-repeat;
+    background-size: contain;
     }
 
 /* Footer End*/
