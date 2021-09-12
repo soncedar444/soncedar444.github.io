@@ -449,6 +449,7 @@ header {
     }
 
 .products__list-item__number {
+    margin: auto 0;
     padding-left: 35px;
     }
 
