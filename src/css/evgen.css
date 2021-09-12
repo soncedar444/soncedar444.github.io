@@ -508,6 +508,10 @@ header {
     border-radius: 5px;
     background-color: transparent;
     margin-right: 30px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
     }
 
 .contact-form__form input::placeholder {
