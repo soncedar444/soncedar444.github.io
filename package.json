@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "browserslist": [">0.1%","last 4 version"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/soncedar444/soncedar444.github.io.git"
@@ -17,7 +18,6 @@
     "url": "https://github.com/soncedar444/soncedar444.github.io/issues"
   },
   "homepage": "https://github.com/soncedar444/soncedar444.github.io#readme",
-  "browserslist": ">0.1%, last 4 version",
   "devDependencies": {
     "autoprefixer": "^10.3.4",
     "gulp": "^4.0.2",
