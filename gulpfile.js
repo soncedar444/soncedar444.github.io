@@ -6,9 +6,11 @@ const postcss = require("gulp-postcss");
 const cleanCSS = require("gulp-clean-css");
 
 function css() {
-    return src("./src/css/notifications.css")
+    return src("./src/css/webstudio.css")
         .pipe(sourcemaps.init())
-        .pipe(postcss([autoprefixer({})]))
+        .pipe(postcss([autoprefixer({
+            "grid":true
+        })]))
         .pipe(cleanCSS({ compatibility: "ie8", inline: ["all"] }))
         .pipe(rename({ extname: ".min.css" }))
         .pipe(sourcemaps.write("."))
